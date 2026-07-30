@@ -5,6 +5,9 @@ class Loginview extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Color(0xffe89797),
+      body: Text("login"),
+    );
   }
 }
