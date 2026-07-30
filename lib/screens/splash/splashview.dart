@@ -28,7 +28,7 @@ class _SplashviewState extends State<Splashview> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: FlutterLogo(size: 30,),),
+    backgroundColor: Colors.black,  body: Center(child: FlutterLogo(size: 30,textColor: Colors.white,),),
     );
   }
 }
